@@ -185,26 +185,26 @@ rel="stylesheet" />
 
 <!-- Work -->
 <section id="works" class="section">
+    <div class="section__container">
 <h1>My Work</h1>
 <h3>Projects</h3>
 <div class="work__categories">
-    <button class="category__btn active">All
-    <span class="category__count">8</span></button>
+    <button class="category__btn active" data-fliter="*">
+    All <span class="category__count">8</span></button>
     
-    <button class="category__btn">Front-end
-    <span class="category__count">3</span></button>
+    <button class="category__btn" data-fliter="front-end">
+    Front-end <span class="category__count">3</span></button>
     
-    <button class="category__btn">Databases
-    <span class="category__count">3</span></button>
+    <button class="category__btn" data-fliter="database">
+    Databases <span class="category__count">3</span></button>
     
-    <button class="category__btn">Mobile
-    <span class="category__count">2</span></button>
+    <button class="category__btn" data-fliter="mobile">
+    Mobile <span class="category__count">2</span></button>
 </div>
 
 <div class="work__projects">
-
-    <a href="https://github.com/hkpark97/1.-portfolio" 
-    class="project" target="blank">
+<a href="https://github.com/hkpark97/1.-portfolio" 
+    class="project" target="blank" data-type="front-end">
 <img class="project__img" src="projects/index_prj.png" alt="index_page">
 <div class="project__description">
     <h3>Index Page</h3>
@@ -213,7 +213,7 @@ rel="stylesheet" />
 </a>
 
 <a href="https://github.com/hkpark97/1.-portfolio" 
-class="project" target="blank">
+class="project" target="blank" data-type="front-end">
 <img class="project__img" src="projects/prj2.png" alt="Project 2">
 <div class="project__description">
 <h3>Project 2</h3>
@@ -222,7 +222,7 @@ class="project" target="blank">
 </a>
 
 <a href="https://github.com/hkpark97/1.-portfolio" 
-class="project" target="blank">
+class="project" target="blank" data-type="front-end">
 <img class="project__img" src="projects/prj3.png" alt="Project 3">
 <div class="project__description">
 <h3>Project 3</h3>
@@ -231,7 +231,7 @@ class="project" target="blank">
 </a>
 
 <a href="https://github.com/hkpark97/1.-portfolio" 
-class="project" target="blank">
+class="project" target="blank" data-type="front-end">
 <img class="project__img" src="projects/prj4.png" alt="Project 4">
 <div class="project__description">
 <h3>Project 4</h3>
@@ -240,7 +240,7 @@ class="project" target="blank">
 </a>
 
 <a href="https://github.com/hkpark97/1.-portfolio" 
-class="project" target="blank">
+class="project" target="blank" data-type="front-end">
 <img class="project__img" src="projects/prj5.png" alt="Project 5">
 <div class="project__description">
 <h3>Project 5</h3>
@@ -249,6 +249,8 @@ class="project" target="blank">
 </a>
 
 </div>
+    </div>
+
 </section>
 
 <!-- Contact -->

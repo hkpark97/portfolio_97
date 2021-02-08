@@ -46,7 +46,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    cursor: default;
 }
 
 a {
@@ -55,8 +54,11 @@ a {
     }
     
 ul{
-list-style: none;
 padding-left: 0;
+    }
+
+    li {
+        list-style: none;
     }
 
  button{
@@ -64,6 +66,7 @@ background-color: transparent;
 cursor: pointer;
 border: none;
 outline: none;
+padding: 0;
     }
 
 /* Typography */
@@ -114,15 +117,15 @@ margin: 4px 0;
     padding : 8px;
 }
 
-.navbar__menu{
-display: flex;
-}
-
 .navbar__logo {
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
     color: white;
 }
+
+.navbar__menu{
+    display: flex;
+    }
 
 .navbar__menu__item{
     padding: 8px 12px;
@@ -219,7 +222,8 @@ background-color: rgb(28, 42, 228);
     transform: rotate(-30deg) scale(1.1);
 }
 
-.major__title, .major__description{
+.major__title, 
+.major__description{
     color: var(--color-dark-grey);
 }
 
@@ -306,7 +310,8 @@ flex-basis: 40%;
     background-color: var(--color-grey);
 }
 
-.tools, .etc {
+.tools, 
+.etc {
     padding: 20px;
 }
 
@@ -382,6 +387,7 @@ position: relative;
 .project__img {
     max-width: 100%;
     max-height: 100%;
+    align-self: center;
 }
 
 .project__description {
@@ -471,6 +477,7 @@ transform: translateY(0px);
 /* For below 768px screen width */
 @media screen and (max-width:768px) {
     :root {
+        
         /* Font size */
   --font-large: 30px;
   --font-medium: 18px;
@@ -519,7 +526,7 @@ transform: translateY(0px);
 }
 
 .major {
-    margin-bottom: 38px;
+    margin-bottom: 30px;
 }
 
 .skillset {

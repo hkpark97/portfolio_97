@@ -61,7 +61,7 @@ padding-left: 0;
         list-style: none;
     }
 
- button{
+ button {
 background-color: transparent;
 cursor: pointer;
 border: none;
@@ -317,7 +317,7 @@ flex-basis: 40%;
 
 /* Work */
 
-.work__category {
+.work__categories {
     margin: 40px;
 }
 

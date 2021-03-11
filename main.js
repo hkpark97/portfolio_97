@@ -67,7 +67,7 @@ scrollIntoView('#home');
 // Projects
 const workBtnContainer = document.querySelector('.work__categories');
 const projectContainer = document.querySelector('.work__projects');
-const projects = document.querySelectorAll('.project');
+const project = document.querySelectorAll('.project');
 workBtnContainer.addEventListener('click', (e) => 
 {
   const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
